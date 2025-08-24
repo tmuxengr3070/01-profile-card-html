@@ -25,7 +25,6 @@ body {
   margin-bottom: 16px;    /* Space below the image */
   border: 2px solid #ccc; /* Optional: subtle border */
 }
-
 /* Remove bullet points from lists inside the card */
 .card ul {
   list-style-type: none;  /* Remove bullets */
