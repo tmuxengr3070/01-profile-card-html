@@ -22,7 +22,6 @@ body {
   height: 100px;          /* Set image height */
   object-fit: cover;      /* Crop image to fit the box */
   border-radius: 50%;     /* Make image circular */
-  margin-bottom: 16px;    /* Space below the image */
   border: 2px solid #ccc; /* Optional: subtle border */
 }
 
