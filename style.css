@@ -16,6 +16,27 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* Subtle shadow for depth */
 }
 
+/* Style the main profile image above the heading */
+.profile-img {
+  width: 100px;           /* Set image width */
+  height: 100px;          /* Set image height */
+  object-fit: cover;      /* Crop image to fit the box */
+  border-radius: 50%;     /* Make image circular */
+  margin-bottom: 16px;    /* Space below the image */
+  border: 2px solid #ccc; /* Optional: subtle border */
+}
+
+/* Remove bullet points from lists inside the card */
+.card ul {
+  list-style-type: none;  /* Remove bullets */
+  padding-left: 0;        /* Remove default left padding */
+  margin: 0;              /* Remove default margin */
+}
+
+.card li {
+  margin-bottom: 8px;     /* Add space between list items */
+}
+
 /* Make the main heading large and dark blue */
 h1 {
   font-size: 40px;   /* Large font size for main heading */
