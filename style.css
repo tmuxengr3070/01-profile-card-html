@@ -1,9 +1,11 @@
+/* Set the background color of the whole page to light blue, center all text, and use a clean sans-serif font */
 body {
   background-color: lightblue;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Style the card: white background, light border, rounded corners, padding inside, fixed max width, centered horizontally, and a subtle shadow */
 .card {
   background: #fff;
   border: 1px solid #ccc;
@@ -14,16 +16,19 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
+/* Make the main heading large and dark blue */
 h1 {
   font-size: 40px;
   color: darkblue;
 }
 
+/* Make the subheading a bit smaller and crimson */
 h2 {
   font-size: 28px;
   color: crimson;
 }
 
+/* Make the paragraph text larger and add more space between lines for readability */
 p {
   font-size: 20px;
   line-height: 1.6;
